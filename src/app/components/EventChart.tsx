@@ -1,3 +1,8 @@
+/*
+ * MIT License
+ * Copyright (c) 2025 Ata İlhan Köktürk
+ */
+
 'use client'
 
 import { useEffect, useState } from 'react'

@@ -1,3 +1,8 @@
+/*
+ * MIT License
+ * Copyright (c) 2025 Ata İlhan Köktürk
+ */
+
 import Link from 'next/link';
 
 export default function Footer() {
