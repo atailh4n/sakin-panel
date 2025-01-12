@@ -37,7 +37,6 @@ export default function NetworkDashboard() {
   const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize] = useState(10);
 
   // Fetch last-24-activity data (only once)
   const fetchLast24ActivityData = async () => {
@@ -172,7 +171,7 @@ export default function NetworkDashboard() {
       {/* Recent SNI Entries Table */}
       <Card className="md:col-span-2 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <CardHeader>
-          <CardTitle>Recent SNI Entries</CardTitle>
+          <CardTitle>Recent SNI Entries (Last 24 Hours)</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="overflow-x-auto">
